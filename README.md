@@ -4,7 +4,7 @@ the <a href=http://en.wikipedia.org/wiki/Blowfish_(cipher)>Blowfish</a> keyed, s
 
 Example encryption and decription:
 
-```
+```Io
 key := "secret"
 data := "this is a message"
 
@@ -14,7 +14,7 @@ decryptedData := Blowfish clone setKey(key) decrypt(encryptedData)
 ```
 
 Or using the stream API:
-```
+```Io
 key := "secret"
 data := "this is a message"
 
